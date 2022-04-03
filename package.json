@@ -1,8 +1,8 @@
 {
-  "name": "hsc-tools",
-  "displayName": "HSC-Tools",
+  "name": "html-standard-checker",
+  "displayName": "Html Standard Checker",
   "description": "An html checker for verifying standards",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -26,6 +26,7 @@
       }
     ]
   },
+  "icon":"images/icon.png",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -34,6 +35,7 @@
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
+  "publisher": "HSC-Extension",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HSC-Extension/VSCode-Extension"
